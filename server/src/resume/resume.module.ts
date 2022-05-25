@@ -36,7 +36,6 @@ import { ResumeService } from './resume.service';
         },
       }),
     }),
-    MulterModule.register({ storage: memoryStorage() }),
     AuthModule,
     UsersModule,
   ],
