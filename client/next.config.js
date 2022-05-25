@@ -12,7 +12,7 @@ const nextConfig = {
   },
 
   images: {
-    domains: ['cdn.rxresu.me', 'www.gravatar.com'],
+    domains: ['www.gravatar.com'],
   },
 
   async rewrites() {
